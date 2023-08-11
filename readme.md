@@ -1,8 +1,8 @@
-# ChatGPT Buddy - Firefox Extension
+# Buddy AI - Firefox Extension
 
-![ChatGPT Buddy Video](screencap.gif)
+![Buddy AI Video](screencap.gif)
 
-ChatGPT Buddy is a powerful Firefox extension that brings the capabilities of the ChatGPT API right to your fingertips while you browse the web. With this extension, you can effortlessly interact with the ChatGPT model to generate text, code, or any other content you need. The extension allows you to use ChatGPT in textareas or textfields on webpages using a simple `$buddy` prefix. Let's get started!
+Buddy AI is a powerful Firefox extension that brings the capabilities of the ChatGPT API right to your fingertips while you browse the web. With this extension, you can effortlessly interact with the ChatGPT model to generate text, code, or any other content you need. The extension allows you to use ChatGPT in textareas or textfields on webpages using a simple `$buddy` prefix. Let's get started!
 
 ## Table of Contents
 
@@ -45,7 +45,7 @@ Using the ChatGPT Buddy extension is simple and intuitive:
 
 ## Configuration
 
-You can configure the ChatGPT Buddy extension by clicking on its icon in the Firefox toolbar and selecting "Options." Here, you can adjust settings such as language preferences, response length, and more to customize your experience.
+You can configure the Buddy AI extension by clicking on its icon in the Firefox toolbar and selecting "Options." Here, you can adjust settings such as language preferences, response length, and more to customize your experience.
 
 ## Keyboard Shortcut
 
@@ -53,7 +53,7 @@ The default keyboard shortcut to send a command to ChatGPT is the ALT/Option key
 
 ## Contributing
 
-We welcome contributions from the community! If you'd like to contribute to the ChatGPT Buddy extension, please follow these steps:
+We welcome contributions from the community! If you'd like to contribute to the Buddy AI extension, please follow these steps:
 
 1. Fork this repository.
 2. Create a new branch for your feature or bug fix.
