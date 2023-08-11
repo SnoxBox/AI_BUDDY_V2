@@ -1,6 +1,6 @@
 # ChatGPT Buddy - Firefox Extension
 
-![ChatGPT Buddy Video](screenshots/demo.gif)
+![ChatGPT Buddy Video](screenshots/screencap.mov)
 
 ChatGPT Buddy is a powerful Firefox extension that brings the capabilities of the ChatGPT API right to your fingertips while you browse the web. With this extension, you can effortlessly interact with the ChatGPT model to generate text, code, or any other content you need. The extension allows you to use ChatGPT in textareas or textfields on webpages using a simple `$buddy` prefix. Let's get started!
 
