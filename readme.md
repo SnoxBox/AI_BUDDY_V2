@@ -31,7 +31,7 @@ To install the ChatGPT Buddy extension, follow these steps:
 4. Click the "Load Temporary Add-on" button.
 5. Navigate to the directory where you cloned or extracted the repository, and select the `manifest.json` file.
 
-The ChatGPT Buddy extension should now be installed and ready to use!
+The Buddy AI extension should now be installed and ready to use!
 
 ## Usage
 
