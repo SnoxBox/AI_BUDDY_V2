@@ -1,0 +1,60 @@
+  {
+    "manifest_version": 2,
+    "name": "Buddy AI 1.0",
+    "version": "1.0",
+    "description": "An AI assistant everywhere",
+
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "addon@example.com",
+        "strict_min_version": "42.0"
+      }
+    },    
+
+    "commands": {
+      "buddyCommand": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+K",
+          "linux": "Ctrl+Shift+K",
+          "mac": "Option"
+        },
+        "description": "Activate the Buddy AI feature"
+      }
+    },
+
+    "icons": {
+      "48": "icons/icon48.png"
+    },
+
+    "permissions": ["activeTab", "tabs", "<all_urls>", "storage"],
+
+    "background": {
+      "scripts": ["background.js"]
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"],
+        "all_frames": true
+      }
+    ],
+
+    "browser_action": {
+      "default_icon": {
+        "48": "icons/icon48.png"
+      },
+      "default_title": "Buddy AI",
+      "default_popup": "popup/popup.html"
+    },
+
+    "options_ui": {
+      "page": "popup/popup.html",
+      "browser_style": true
+    },
+
+    "web_accessible_resources": [
+        "modal.html", "<all_urls>", "icons/icon48.png"
+    ]
+  }   
+

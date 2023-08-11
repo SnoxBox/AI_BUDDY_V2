@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sidekick AI - Rescue Mode</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.17/dist/tailwind.min.css"
+    />
+    <style>
+      /* width */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #a0aec0;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: rgb(56, 61, 206);
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f7fafc;
+      }
+
+      .modal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #0e0e0e;
+        box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+
+      .modal-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        padding: 1rem;
+        background-color: purple;
+        color: #ffffff;
+        width: 100%;
+        border-bottom: 1px solid rgb(17, 18, 78);
+      }
+
+      .modal-header h4 {
+        font-size: 1.1rem;
+        font-weight: bold;
+      }
+
+      .modal-content {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+        width: 100%;
+        padding: 1rem;
+      }
+
+      .modal-textarea {
+        width: 100%;
+        padding: 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 1px solid #e5e7eb;
+        border-radius: 0.5rem;
+        resize: none;
+        font-size: 1rem;
+      }
+
+      .modal-response {
+        width: 100%;
+        height: 200px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        border: 1px solid #e5e7eb;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+        color: #a0aec0;
+        overflow: auto;
+        white-space: pre-wrap;
+      }
+
+      .modal-submit {
+        /* margin-top: 1rem; */
+        padding: 0.5rem 1rem;
+        background-color: #4f46e5;
+        color: #ffffff;
+        border: none;
+        border-radius: 0.25rem;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+      }
+
+      .modal-submit:hover {
+        background-color: #4338ca;
+      }
+      .modal-close {
+        background: none;
+        border: none;
+        font-size: 2rem;
+        color: #a0aec0;
+        cursor: pointer;
+        outline: none;
+      }
+      .modal-close:hover {
+        color: red;
+      }
+      .modal-logo {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="modal">
+      <div class="modal-header">
+        <div class="modal-logo">
+          <img src="logo.png" alt="Sidekick AI Logo" class="w-12 h-12 ml-4" />
+          <h4>Sidekick AI</h4>
+        </div>
+        <button id="close-modal" class="modal-close">&times;</button>
+      </div>
+      <div class="modal-content">
+        <textarea
+          id="rescue-textarea"
+          class="modal-textarea"
+          placeholder="Type your message here"
+        ></textarea>
+        <button id="rescue-submit" class="modal-submit">Send</button>
+        <pre id="response-text" class="modal-response">
+        Response will be here..</pre
+        >
+      </div>
+    </div>
+    <script src="modal.js"></script>
+  </body>
+</html>
