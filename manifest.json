@@ -14,9 +14,9 @@
     "commands": {
       "buddyCommand": {
         "suggested_key": {
-          "default": "Ctrl+Shift+K",
-          "linux": "Ctrl+Shift+K",
-          "mac": "Option"
+          "default": "Alt+A",
+          "linux": "Alt+A",
+          "mac": "Alt+A"
         },
         "description": "Activate the Buddy AI feature"
       }
